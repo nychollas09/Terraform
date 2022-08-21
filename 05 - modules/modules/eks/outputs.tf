@@ -28,6 +28,6 @@ locals {
 }
 
 resource "local_file" "kubeconfig" {
-  filename = "../../kubeconfig"
+  filename = "kubeconfig"
   content  = local.kubeconfig
 }
